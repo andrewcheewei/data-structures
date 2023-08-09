@@ -1,0 +1,38 @@
+/*
+ * Problem3.txt Solution
+ * Author: Ishaan Kishore Agrawal
+ * UNI: ia2341
+ * Date Created: 22 January, 2019
+ * Date Modified: 23 January, 2019
+ */
+
+
+Timed Results for cubic()
+--------------------------
+For N = 10, Time Elapsed = 13000 ns.
+For N = 50, Time Elapsed = 978000 ns.
+For N = 250, Time Elapsed = 108103000 ns.
+For N = 1250, Time Elapsed = 13109572000 ns.
+
+The runtime increases as N increases. It roughly follows cubic patterns and
+therefore satisfies O(n^3).
+
+Timed Results for exp()
+-----------------------
+For N = 8, Time Elapsed = 15000 ns.
+For N = 16, Time Elapsed = 143000 ns.
+For N = 32, Time Elapsed = 348616000 ns.
+
+The runtime increases as N increases. It roughly follows exponential patterns
+and therefore satisfied O(2^n).
+
+Timed Results for constant()
+----------------------------
+For N = 10, Time Elapsed = 7000 ns.
+For N = 100, Time Elapsed = 0 ns.
+For N = 1000, Time Elapsed = 1000 ns.
+For N = 10000, Time Elapsed = 0 ns.
+For N = 100000, Time Elapsed = 1000 ns.
+
+The runtime seems independent of N, barring some noise in the computational
+process. Therefore, the runtime of O(1) is satisfied.
