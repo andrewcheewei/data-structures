@@ -1,0 +1,1 @@
+* null? how to pop item off stack?
